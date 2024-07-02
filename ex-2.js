@@ -12,4 +12,12 @@ let getJohnProfile = () => {
   });
 };
 
-// Start coding here
+function displayResolved (data){
+    console.log(data);
+}
+
+function displayRejected (error){
+    console.log(error);
+}
+
+getJohnProfile().then(displayResolved).catch(displayRejected)
