@@ -13,7 +13,7 @@ let getJohnProfile = async() => {
   });
 };
 
-let getJohnOrders = () => {
+let getJohnOrders = async() => {
   return new Promise(function (resolve) {
     setTimeout(
       () =>
